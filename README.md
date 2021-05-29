@@ -2,7 +2,7 @@
 Simple spring boot rest api, creating docker image
 1) Install Docker for Windows from official website, and install and restart. It will ask to sdw
 cd "C:\Program Files\Docker\Docker"
->> ./DockerCli.exe -SwitchDaemon
+">> ./DockerCli.exe -SwitchDaemon"
 
 docker run -d -p 80:80 docker/getting-started
 

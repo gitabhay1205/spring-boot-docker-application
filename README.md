@@ -19,7 +19,7 @@ Step 1) Build an image
 1.a) go to directory of your application, cd C:\Users\Ezone\Documents\workspace-sts-3.9.7.RELEASE\spring-boot-docker-application
 1.b) docker build -f Dockerfile -t docker-spring-boot .  (-t is tag name of the image, we have given it as docker-spring-boot, .(dot) specify where is our Dockerfile present, since it is in current directory so we have used .)
 1.c) docker images     (will give you image name)
-1.d) docker run -p 8085:8085 docker-spring-boot   (this will run docker image, 8085:8085 (first port is port of the container, and second port is port of the application)
+1.d) docker run -p 8085:8085 abhay120593/docker-spring-boot   (this will run docker image, 8085:8085 (first port is port of the container, and second port is port of the application)
 1.e) http://localhost:8085/dockerEx/get/{name}
 
 
